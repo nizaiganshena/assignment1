@@ -49,17 +49,14 @@ def turtle_drawing():
     t.color("blue")
 
     if choice == "square":
-        # 正方形
         for _ in range(4):
             t.forward(100)
             t.left(90)
     elif choice == "triangle":
-        # 正三角形
         for _ in range(3):
             t.forward(100)
             t.left(120)
     elif choice == "star":
-        # 五角星
         for _ in range(5):
             t.forward(120)
             t.right(144)
